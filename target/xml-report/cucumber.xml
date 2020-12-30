@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="82.855">
+<testcase classname="US1005_Walmart_parameter_arama" name="TC07_aranan_kelime_title’da_olmali" time="22.232">
+<system-out><![CDATA[When kullanici walmart ana sayfaya gider....................................passed
+Then walmart sayfasinda "Nutella" icin arama yapar..........................passed
+Then walmartta sayfa basliginin "Nutella" icerdigini test eder..............passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1005_Walmart_parameter_arama" name="TC07_aranan_kelime_title’da_olmali_2" time="20.779">
+<system-out><![CDATA[When kullanici walmart ana sayfaya gider....................................passed
+Then walmart sayfasinda "pencil" icin arama yapar...........................passed
+Then walmartta sayfa basliginin "pencil" icerdigini test eder...............passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1005_Walmart_parameter_arama" name="TC07_aranan_kelime_title’da_olmali_3" time="19.723">
+<system-out><![CDATA[When kullanici walmart ana sayfaya gider....................................passed
+Then walmart sayfasinda "tomatoes" icin arama yapar.........................passed
+Then walmartta sayfa basliginin "tomatoes" icerdigini test eder.............passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1005_Walmart_parameter_arama" name="TC07_aranan_kelime_title’da_olmali_4" time="19.497">
+<system-out><![CDATA[When kullanici walmart ana sayfaya gider....................................passed
+Then walmart sayfasinda "popcorn" icin arama yapar..........................passed
+Then walmartta sayfa basliginin "popcorn" icerdigini test eder..............passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

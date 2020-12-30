@@ -1,5 +1,5 @@
 Feature: US1004_amazon_search_scenario_outline
-  @wip
+
   Scenario Outline: TC06_coklu_arama
 
     When kullanici amazon anasayfaya gider
