@@ -1,0 +1,11 @@
+stepdefinitions\BestbuyStepDefinitions.class
+stepdefinitions\WalmartStepDefinitions.class
+pages\DataTablePage.class
+pages\AmazonPage.class
+pages\WalmartPage.class
+runners\TestRunner.class
+stepdefinitions\AmazonStepDefinitions.class
+utilities\Driver.class
+stepdefinitions\DataTableStepDefinitions.class
+utilities\ConfigReader.class
+runners\SmokeTestRunner.class

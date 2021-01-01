@@ -1,3 +1,4 @@
+@amazon
 Feature: US1004_amazon_search_scenario_outline
 
   Scenario Outline: TC06_coklu_arama

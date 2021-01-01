@@ -1,0 +1,1823 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-31T14:24:24.329Z",
+        "line": 12,
+        "name": "TC07_aranan_kelime_title’da_olmali",
+        "description": "",
+        "id": "us1005-walmart-parameter-arama;tc07-aranan-kelime-title’da-olmali;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14738000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici walmart ana sayfaya gider",
+            "match": {
+              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_ana_sayfaya_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7631000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "walmart sayfasinda \"Nutella\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nutella\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.WalmartStepDefinitions.walmart_sayfasinda_icin_arama_yapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "walmartta sayfa basliginin \"Nutella\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nutella\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinitions.WalmartStepDefinitions.walmartta_sayfa_basliginin_icerdigini_test_eder(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 142000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@diger"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-31T14:24:46.957Z",
+        "line": 13,
+        "name": "TC07_aranan_kelime_title’da_olmali",
+        "description": "",
+        "id": "us1005-walmart-parameter-arama;tc07-aranan-kelime-title’da-olmali;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11362000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici walmart ana sayfaya gider",
+            "match": {
+              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_ana_sayfaya_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9664000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "walmart sayfasinda \"pencil\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pencil\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.WalmartStepDefinitions.walmart_sayfasinda_icin_arama_yapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "walmartta sayfa basliginin \"pencil\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pencil\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinitions.WalmartStepDefinitions.walmartta_sayfa_basliginin_icerdigini_test_eder(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 170000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@diger"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-31T14:25:08.277Z",
+        "line": 14,
+        "name": "TC07_aranan_kelime_title’da_olmali",
+        "description": "",
+        "id": "us1005-walmart-parameter-arama;tc07-aranan-kelime-title’da-olmali;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12518000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici walmart ana sayfaya gider",
+            "match": {
+              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_ana_sayfaya_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12808000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "walmart sayfasinda \"tomatoes\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tomatoes\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.WalmartStepDefinitions.walmart_sayfasinda_icin_arama_yapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "walmartta sayfa basliginin \"tomatoes\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tomatoes\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinitions.WalmartStepDefinitions.walmartta_sayfa_basliginin_icerdigini_test_eder(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 149000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@diger"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-31T14:25:33.828Z",
+        "line": 15,
+        "name": "TC07_aranan_kelime_title’da_olmali",
+        "description": "",
+        "id": "us1005-walmart-parameter-arama;tc07-aranan-kelime-title’da-olmali;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12418000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici walmart ana sayfaya gider",
+            "match": {
+              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_ana_sayfaya_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7980000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "walmart sayfasinda \"popcorn\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"popcorn\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.WalmartStepDefinitions.walmart_sayfasinda_icin_arama_yapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "walmartta sayfa basliginin \"popcorn\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"popcorn\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinitions.WalmartStepDefinitions.walmartta_sayfa_basliginin_icerdigini_test_eder(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@diger"
+          }
+        ]
+      }
+    ],
+    "name": "US1005_Walmart_parameter_arama",
+    "description": "",
+    "id": "us1005-walmart-parameter-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1005_Walmart_parameter_arama.feature",
+    "tags": [
+      {
+        "name": "@diger",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-31T14:25:54.419Z",
+        "line": 12,
+        "name": "TC08_her_url\u0027e_gitmeli",
+        "description": "",
+        "id": "us1006-dinamik-url-test;tc08-her-url-e-gitmeli;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11905000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici \"amazon_url\" anasayfaya gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazon_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.BestbuyStepDefinitions.kullanici_anasayfaya_gider(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 143000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"amazon_url\" de oldugunu test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazon_url\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.BestbuyStepDefinitions.deOldugunuTestEder(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 133000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@diger"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-31T14:26:06.618Z",
+        "line": 13,
+        "name": "TC08_her_url\u0027e_gitmeli",
+        "description": "",
+        "id": "us1006-dinamik-url-test;tc08-her-url-e-gitmeli;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8364000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici \"bestbuy_url\" anasayfaya gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bestbuy_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.BestbuyStepDefinitions.kullanici_anasayfaya_gider(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 369000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"bestbuy_url\" de oldugunu test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bestbuy_url\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.BestbuyStepDefinitions.deOldugunuTestEder(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 109000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@diger"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-31T14:26:15.472Z",
+        "line": 14,
+        "name": "TC08_her_url\u0027e_gitmeli",
+        "description": "",
+        "id": "us1006-dinamik-url-test;tc08-her-url-e-gitmeli;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11447000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici \"walmart_url\" anasayfaya gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"walmart_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.BestbuyStepDefinitions.kullanici_anasayfaya_gider(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"walmart_url\" de oldugunu test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"walmart_url\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.BestbuyStepDefinitions.deOldugunuTestEder(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@diger"
+          }
+        ]
+      }
+    ],
+    "name": "US1006_Dinamik_url_test",
+    "description": "",
+    "id": "us1006-dinamik-url-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1006_Dinamik_url_test.feature",
+    "tags": [
+      {
+        "name": "@diger",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-31T14:26:27.120Z",
+        "line": 22,
+        "name": "TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali",
+        "description": "",
+        "id": "us1007-kullanici-data-ekleyebilmeli;tc09-5-farkli-kisi-ile-farkli-kombinasyonlari-calismali;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8112000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici \"datatable_url\" anasayfaya gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"datatable_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.BestbuyStepDefinitions.kullanici_anasayfaya_gider(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 391000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "new butonuna basar",
+            "match": {
+              "location": "stepdefinitions.DataTableStepDefinitions.new_butonuna_basar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 327000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "first name girer \"mehmet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mehmet\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.first_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1011000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"1\" saniye bekler",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.saniyeBekler(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Last name girer \"bulut\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bulut\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.last_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Position girer \"teacher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"teacher\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.postion_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Office girer \"ankara\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ankara\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.office_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Extention girer \"---\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"---\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.extention_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 408000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Start date girer \"2020-12-10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2020-12-10\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.start_date_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 213000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Salary girer \"1000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1000\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.salary_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Create tusuna basar",
+            "match": {
+              "location": "stepdefinitions.DataTableStepDefinitions.create_tusuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "kullanici \"mehmet\" ile arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mehmet\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.kullaniciIleAramaYapar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 426000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "isim bolumunde \"mehmet\" oldugunu dogrular",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mehmet\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.isimBolumundeOldugunuDogrular(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 180000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@diger"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-31T14:26:39.335Z",
+        "line": 23,
+        "name": "TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali",
+        "description": "",
+        "id": "us1007-kullanici-data-ekleyebilmeli;tc09-5-farkli-kisi-ile-farkli-kombinasyonlari-calismali;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7875000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici \"datatable_url\" anasayfaya gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"datatable_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.BestbuyStepDefinitions.kullanici_anasayfaya_gider(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 300000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "new butonuna basar",
+            "match": {
+              "location": "stepdefinitions.DataTableStepDefinitions.new_butonuna_basar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 176000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "first name girer \"yasin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yasin\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.first_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1002000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"1\" saniye bekler",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.saniyeBekler(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Last name girer \"kaya\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kaya\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.last_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Position girer \"manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.postion_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Office girer \"ankara\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ankara\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.office_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Extention girer \"--\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"--\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.extention_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 466000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Start date girer \"2020-10-15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2020-10-15\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.start_date_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Salary girer \"10000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10000\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.salary_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Create tusuna basar",
+            "match": {
+              "location": "stepdefinitions.DataTableStepDefinitions.create_tusuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "kullanici \"yasin\" ile arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yasin\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.kullaniciIleAramaYapar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 374000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "isim bolumunde \"yasin\" oldugunu dogrular",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yasin\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.isimBolumundeOldugunuDogrular(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 98000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@diger"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-31T14:26:50.920Z",
+        "line": 24,
+        "name": "TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali",
+        "description": "",
+        "id": "us1007-kullanici-data-ekleyebilmeli;tc09-5-farkli-kisi-ile-farkli-kombinasyonlari-calismali;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7803000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici \"datatable_url\" anasayfaya gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"datatable_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.BestbuyStepDefinitions.kullanici_anasayfaya_gider(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 769000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "new butonuna basar",
+            "match": {
+              "location": "stepdefinitions.DataTableStepDefinitions.new_butonuna_basar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 209000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "first name girer \"cevat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cevat\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.first_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1014000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"1\" saniye bekler",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.saniyeBekler(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Last name girer \"fehmi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fehmi\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.last_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Position girer \"tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.postion_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Office girer \"istanbul\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"istanbul\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.office_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Extention girer \"Dr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dr\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.extention_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 275000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Start date girer \"2020-05-15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2020-05-15\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.start_date_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Salary girer \"12500000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12500000\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.salary_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Create tusuna basar",
+            "match": {
+              "location": "stepdefinitions.DataTableStepDefinitions.create_tusuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 206000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "kullanici \"cevat\" ile arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cevat\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.kullaniciIleAramaYapar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 179000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "isim bolumunde \"cevat\" oldugunu dogrular",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cevat\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.isimBolumundeOldugunuDogrular(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 130000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@diger"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-31T14:27:02.361Z",
+        "line": 25,
+        "name": "TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali",
+        "description": "",
+        "id": "us1007-kullanici-data-ekleyebilmeli;tc09-5-farkli-kisi-ile-farkli-kombinasyonlari-calismali;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7813000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici \"datatable_url\" anasayfaya gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"datatable_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.BestbuyStepDefinitions.kullanici_anasayfaya_gider(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 615000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "new butonuna basar",
+            "match": {
+              "location": "stepdefinitions.DataTableStepDefinitions.new_butonuna_basar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 314000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "first name girer \"adnan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"adnan\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.first_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1006000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"1\" saniye bekler",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.saniyeBekler(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Last name girer \"calis\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"calis\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.last_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Position girer \"QA lead\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"QA lead\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.postion_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Office girer \"berlin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"berlin\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.office_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Extention girer \"Master\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Master\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.extention_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Start date girer \"2020-03-16\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2020-03-16\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.start_date_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Salary girer \"-25000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"-25000\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.salary_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Create tusuna basar",
+            "match": {
+              "location": "stepdefinitions.DataTableStepDefinitions.create_tusuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 328000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "kullanici \"adnan\" ile arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"adnan\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.kullaniciIleAramaYapar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "isim bolumunde \"adnan\" oldugunu dogrular",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"adnan\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.isimBolumundeOldugunuDogrular(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@diger"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-31T14:27:13.999Z",
+        "line": 26,
+        "name": "TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali",
+        "description": "",
+        "id": "us1007-kullanici-data-ekleyebilmeli;tc09-5-farkli-kisi-ile-farkli-kombinasyonlari-calismali;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7461000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici \"datatable_url\" anasayfaya gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"datatable_url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.BestbuyStepDefinitions.kullanici_anasayfaya_gider(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 248000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "new butonuna basar",
+            "match": {
+              "location": "stepdefinitions.DataTableStepDefinitions.new_butonuna_basar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 131000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "first name girer \"selin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selin\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.first_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1008000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"1\" saniye bekler",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.saniyeBekler(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Last name girer \"gul\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"gul\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.last_name_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Position girer \"Manuel tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manuel tester\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.postion_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Office girer \"munih\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"munih\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.office_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Extention girer \"--\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"--\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.extention_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Start date girer \"2020-12-12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2020-12-12\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.start_date_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Salary girer \"1256125\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1256125\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.salary_girer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Create tusuna basar",
+            "match": {
+              "location": "stepdefinitions.DataTableStepDefinitions.create_tusuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "kullanici \"selin\" ile arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selin\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.kullaniciIleAramaYapar(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "isim bolumunde \"selin\" oldugunu dogrular",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selin\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefinitions.DataTableStepDefinitions.isimBolumundeOldugunuDogrular(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "kullanici sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@diger"
+          }
+        ]
+      }
+    ],
+    "name": "US1007_kullanici_data_ekleyebilmeli",
+    "description": "",
+    "id": "us1007-kullanici-data-ekleyebilmeli",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1007_kullanici_data_ekleyebilmeli%20.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,4 +1,4 @@
-@amazonaramauserstory
+@amazon
 Feature: US1002_amazon_search_background
 
   #@beforeMethod ile ayni isleve sahip

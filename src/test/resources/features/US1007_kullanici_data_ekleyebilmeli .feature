@@ -1,11 +1,12 @@
-@wip
-Feature: US1007_kullanici_data_ekleyebilmeli
 
+Feature: US1007_kullanici_data_ekleyebilmeli
+  @diger
   Scenario Outline: TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali
 
     When kullanici "datatable_url" anasayfaya gider
     Then new butonuna basar
     And first name girer "<firstname>"
+    And "1" saniye bekler
     And Last name girer "<lastname>"
     And Position girer "<position>"
     And Office girer "<office>"
@@ -15,6 +16,7 @@ Feature: US1007_kullanici_data_ekleyebilmeli
     And Create tusuna basar
     When kullanici "<firstname>" ile arama yapar
     Then isim bolumunde "<firstname>" oldugunu dogrular
+    And kullanici sayfayi kapatir
     Examples:
       | firstname | lastname | position | office | extention | date | salary |
       |mehmet     |bulut     |teacher  |ankara  |---        |2020-12-10|1000|

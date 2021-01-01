@@ -1,5 +1,6 @@
 package stepdefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -63,5 +64,11 @@ public class DataTableStepDefinitions {
     @Then("isim bolumunde {string} oldugunu dogrular")
     public void isimBolumundeOldugunuDogrular(String arg0) {
         Assert.assertTrue(dataTablePage.ilkAramaSonucu.getText().contains(arg0));
+    }
+
+    @And("{string} saniye bekler")
+    public void saniyeBekler(String arg0) throws InterruptedException {
+        int sure=Integer.parseInt(arg0);
+        Thread.sleep(sure*1000);
     }
 }

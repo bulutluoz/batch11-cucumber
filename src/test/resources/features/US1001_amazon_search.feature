@@ -1,6 +1,6 @@
 Feature: US1001 amazon page search
 
-  @amazonarama
+  @amazon
   Scenario: TC01 amazon arama testi
 
     Given kullanici amazon anasayfaya gider

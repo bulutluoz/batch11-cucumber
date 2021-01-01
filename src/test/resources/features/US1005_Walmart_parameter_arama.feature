@@ -1,4 +1,4 @@
-
+@diger
 Feature: US1005_Walmart_parameter_arama
   Scenario Outline: TC07_aranan_kelime_title’da_olmali
 

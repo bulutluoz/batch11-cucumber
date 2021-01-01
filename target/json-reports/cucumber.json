@@ -3,296 +3,98 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-12-30T18:46:09.760Z",
-        "line": 12,
-        "name": "TC07_aranan_kelime_title’da_olmali",
+        "start_timestamp": "2021-01-01T10:12:12.094Z",
+        "line": 3,
+        "name": "TC11 kullanici gecersiz bilgilerle giris yapamaz",
         "description": "",
-        "id": "us1005-walmart-parameter-arama;tc07-aranan-kelime-title’da-olmali;;2",
+        "id": "us1009-ck-hotels-log;tc11-kullanici-gecersiz-bilgilerle-giris-yapamaz",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 14041000000,
+              "duration": 14479000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"Ck_Hotels_Url\" anasayfaya gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ck_Hotels_Url\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.BestbuyStepDefinitions.kullanici_anasayfaya_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1004000000,
               "status": "passed"
             },
             "line": 5,
-            "name": "kullanici walmart ana sayfaya gider",
+            "name": "Log in yazisina tiklar",
             "match": {
-              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_ana_sayfaya_gider()"
+              "location": "stepdefinitions.CkHotelsStepDefinitions.log_in_yazisina_tiklar()"
             },
-            "keyword": "When "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 7699000000,
+              "duration": 190000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "walmart sayfasinda \"Nutella\" icin arama yapar",
+            "name": "gecersiz username girer",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Nutella\"",
-                  "offset": 19
-                }
-              ],
-              "location": "stepdefinitions.WalmartStepDefinitions.walmart_sayfasinda_icin_arama_yapar(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 57000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "walmartta sayfa basliginin \"Nutella\" icerdigini test eder",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Nutella\"",
-                  "offset": 27
-                }
-              ],
-              "location": "stepdefinitions.WalmartStepDefinitions.walmartta_sayfa_basliginin_icerdigini_test_eder(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 271000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "kullanici sayfayi kapatir",
-            "match": {
-              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+              "location": "stepdefinitions.CkHotelsStepDefinitions.gecersizUsernameGirer()"
             },
             "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-30T18:46:32.058Z",
-        "line": 13,
-        "name": "TC07_aranan_kelime_title’da_olmali",
-        "description": "",
-        "id": "us1005-walmart-parameter-arama;tc07-aranan-kelime-title’da-olmali;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 12088000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "kullanici walmart ana sayfaya gider",
-            "match": {
-              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_ana_sayfaya_gider()"
-            },
-            "keyword": "When "
           },
           {
             "result": {
-              "duration": 8313000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "walmart sayfasinda \"pencil\" icin arama yapar",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"pencil\"",
-                  "offset": 19
-                }
-              ],
-              "location": "stepdefinitions.WalmartStepDefinitions.walmart_sayfasinda_icin_arama_yapar(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 80000000,
+              "duration": 172000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "walmartta sayfa basliginin \"pencil\" icerdigini test eder",
+            "name": "gecersiz password girer",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"pencil\"",
-                  "offset": 27
-                }
-              ],
-              "location": "stepdefinitions.WalmartStepDefinitions.walmartta_sayfa_basliginin_icerdigini_test_eder(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 292000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "kullanici sayfayi kapatir",
-            "match": {
-              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+              "location": "stepdefinitions.CkHotelsStepDefinitions.gecersizPasswordGirer()"
             },
             "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-30T18:46:52.861Z",
-        "line": 14,
-        "name": "TC07_aranan_kelime_title’da_olmali",
-        "description": "",
-        "id": "us1005-walmart-parameter-arama;tc07-aranan-kelime-title’da-olmali;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 11331000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "kullanici walmart ana sayfaya gider",
-            "match": {
-              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_ana_sayfaya_gider()"
-            },
-            "keyword": "When "
           },
           {
             "result": {
-              "duration": 8094000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "walmart sayfasinda \"tomatoes\" icin arama yapar",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"tomatoes\"",
-                  "offset": 19
-                }
-              ],
-              "location": "stepdefinitions.WalmartStepDefinitions.walmart_sayfasinda_icin_arama_yapar(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 46000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "walmartta sayfa basliginin \"tomatoes\" icerdigini test eder",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"tomatoes\"",
-                  "offset": 27
-                }
-              ],
-              "location": "stepdefinitions.WalmartStepDefinitions.walmartta_sayfa_basliginin_icerdigini_test_eder(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 239000000,
+              "duration": 947000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "kullanici sayfayi kapatir",
+            "name": "Login butonuna basar",
             "match": {
-              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
+              "location": "stepdefinitions.CkHotelsStepDefinitions.login_butonuna_basar()"
             },
             "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-30T18:47:12.606Z",
-        "line": 15,
-        "name": "TC07_aranan_kelime_title’da_olmali",
-        "description": "",
-        "id": "us1005-walmart-parameter-arama;tc07-aranan-kelime-title’da-olmali;;5",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 11273000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "kullanici walmart ana sayfaya gider",
-            "match": {
-              "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_ana_sayfaya_gider()"
-            },
-            "keyword": "When "
           },
           {
             "result": {
-              "duration": 8040000000,
+              "duration": 89000000,
               "status": "passed"
             },
-            "line": 6,
-            "name": "walmart sayfasinda \"popcorn\" icin arama yapar",
+            "line": 9,
+            "name": "sayfaya giris yapilamadigini kontrol eder",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"popcorn\"",
-                  "offset": 19
-                }
-              ],
-              "location": "stepdefinitions.WalmartStepDefinitions.walmart_sayfasinda_icin_arama_yapar(java.lang.String)"
+              "location": "stepdefinitions.CkHotelsStepDefinitions.sayfayaGirisYapilamadiginiKontrolEder()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 48000000,
+              "duration": 121000000,
               "status": "passed"
             },
-            "line": 7,
-            "name": "walmartta sayfa basliginin \"popcorn\" icerdigini test eder",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"popcorn\"",
-                  "offset": 27
-                }
-              ],
-              "location": "stepdefinitions.WalmartStepDefinitions.walmartta_sayfa_basliginin_icerdigini_test_eder(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 129000000,
-              "status": "passed"
-            },
-            "line": 8,
+            "line": 10,
             "name": "kullanici sayfayi kapatir",
             "match": {
               "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
@@ -307,11 +109,11 @@
         ]
       }
     ],
-    "name": "US1005_Walmart_parameter_arama",
+    "name": "US1009 Ck Hotels Log",
     "description": "",
-    "id": "us1005-walmart-parameter-arama",
+    "id": "us1009-ck-hotels-log",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/US1005_Walmart_parameter_arama.feature",
+    "uri": "file:src/test/resources/features/US1009_Ck_Hotels_Log.feature",
     "tags": [
       {
         "name": "@wip",
