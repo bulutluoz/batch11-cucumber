@@ -1,6 +1,6 @@
-
+@smoke
 Feature: US1007_kullanici_data_ekleyebilmeli
-  @diger
+
   Scenario Outline: TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali
 
     When kullanici "datatable_url" anasayfaya gider

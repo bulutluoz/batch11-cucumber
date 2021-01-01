@@ -1,4 +1,4 @@
-@wip
+@regression
 Feature: US1009 Ck Hotels Log
   Scenario: TC11 kullanici gecersiz bilgilerle giris yapamaz
     Given kullanici "Ck_Hotels_Url" anasayfaya gider

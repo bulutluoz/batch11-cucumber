@@ -3,17 +3,39 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-12-31T14:24:24.329Z",
+        "start_timestamp": "2021-01-01T20:39:10.292Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 12,
         "name": "TC07_aranan_kelime_title’da_olmali",
         "description": "",
         "id": "us1005-walmart-parameter-arama;tc07-aranan-kelime-title’da-olmali;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 8363000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 14738000000,
+              "duration": 21465000000,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 7631000000,
+              "duration": 13105000000,
               "status": "passed"
             },
             "line": 6,
@@ -43,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 54000000,
+              "duration": 61000000,
               "status": "passed"
             },
             "line": 7,
@@ -61,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 142000000,
+              "duration": 557000000,
               "status": "passed"
             },
             "line": 8,
@@ -74,22 +96,43 @@
         ],
         "tags": [
           {
-            "name": "@diger"
+            "name": "@smoke"
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-31T14:24:46.957Z",
+        "start_timestamp": "2021-01-01T20:39:53.926Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 13,
         "name": "TC07_aranan_kelime_title’da_olmali",
         "description": "",
         "id": "us1005-walmart-parameter-arama;tc07-aranan-kelime-title’da-olmali;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 7244000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 11362000000,
+              "duration": 13700000000,
               "status": "passed"
             },
             "line": 5,
@@ -101,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 9664000000,
+              "duration": 11067000000,
               "status": "passed"
             },
             "line": 6,
@@ -119,7 +162,7 @@
           },
           {
             "result": {
-              "duration": 93000000,
+              "duration": 44000000,
               "status": "passed"
             },
             "line": 7,
@@ -137,7 +180,7 @@
           },
           {
             "result": {
-              "duration": 170000000,
+              "duration": 226000000,
               "status": "passed"
             },
             "line": 8,
@@ -150,22 +193,44 @@
         ],
         "tags": [
           {
-            "name": "@diger"
+            "name": "@smoke"
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-31T14:25:08.277Z",
+        "start_timestamp": "2021-01-01T20:40:26.229Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 14,
         "name": "TC07_aranan_kelime_title’da_olmali",
         "description": "",
         "id": "us1005-walmart-parameter-arama;tc07-aranan-kelime-title’da-olmali;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 6808000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 12518000000,
+              "duration": 13248000000,
               "status": "passed"
             },
             "line": 5,
@@ -177,7 +242,7 @@
           },
           {
             "result": {
-              "duration": 12808000000,
+              "duration": 12836000000,
               "status": "passed"
             },
             "line": 6,
@@ -195,7 +260,7 @@
           },
           {
             "result": {
-              "duration": 54000000,
+              "duration": 34000000,
               "status": "passed"
             },
             "line": 7,
@@ -213,7 +278,7 @@
           },
           {
             "result": {
-              "duration": 149000000,
+              "duration": 126000000,
               "status": "passed"
             },
             "line": 8,
@@ -226,22 +291,43 @@
         ],
         "tags": [
           {
-            "name": "@diger"
+            "name": "@smoke"
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-31T14:25:33.828Z",
+        "start_timestamp": "2021-01-01T20:40:59.306Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 15,
         "name": "TC07_aranan_kelime_title’da_olmali",
         "description": "",
         "id": "us1005-walmart-parameter-arama;tc07-aranan-kelime-title’da-olmali;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 7166000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 12418000000,
+              "duration": 13405000000,
               "status": "passed"
             },
             "line": 5,
@@ -253,7 +339,7 @@
           },
           {
             "result": {
-              "duration": 7980000000,
+              "duration": 12491000000,
               "status": "passed"
             },
             "line": 6,
@@ -271,7 +357,7 @@
           },
           {
             "result": {
-              "duration": 44000000,
+              "duration": 41000000,
               "status": "passed"
             },
             "line": 7,
@@ -289,7 +375,7 @@
           },
           {
             "result": {
-              "duration": 110000000,
+              "duration": 568000000,
               "status": "passed"
             },
             "line": 8,
@@ -302,7 +388,7 @@
         ],
         "tags": [
           {
-            "name": "@diger"
+            "name": "@smoke"
           }
         ]
       }
@@ -314,7 +400,7 @@
     "uri": "file:src/test/resources/features/US1005_Walmart_parameter_arama.feature",
     "tags": [
       {
-        "name": "@diger",
+        "name": "@smoke",
         "type": "Tag",
         "location": {
           "line": 1,
@@ -327,17 +413,38 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2020-12-31T14:25:54.419Z",
+        "start_timestamp": "2021-01-01T20:41:33.048Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 12,
         "name": "TC08_her_url\u0027e_gitmeli",
         "description": "",
         "id": "us1006-dinamik-url-test;tc08-her-url-e-gitmeli;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2374000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 11905000000,
+              "duration": 13074000000,
               "status": "passed"
             },
             "line": 6,
@@ -355,7 +462,7 @@
           },
           {
             "result": {
-              "duration": 143000000,
+              "duration": 354000000,
               "status": "passed"
             },
             "line": 7,
@@ -370,38 +477,50 @@
               "location": "stepdefinitions.BestbuyStepDefinitions.deOldugunuTestEder(java.lang.String)"
             },
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 133000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "kullanici sayfayi kapatir",
-            "match": {
-              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
-            },
-            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@diger"
+            "name": "@smoke"
+          },
+          {
+            "name": "@hook"
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-31T14:26:06.618Z",
+        "start_timestamp": "2021-01-01T20:41:48.860Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 13,
         "name": "TC08_her_url\u0027e_gitmeli",
         "description": "",
         "id": "us1006-dinamik-url-test;tc08-her-url-e-gitmeli;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2443000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 8364000000,
+              "duration": 8469000000,
               "status": "passed"
             },
             "line": 6,
@@ -419,7 +538,7 @@
           },
           {
             "result": {
-              "duration": 369000000,
+              "duration": 119000000,
               "status": "passed"
             },
             "line": 7,
@@ -434,38 +553,50 @@
               "location": "stepdefinitions.BestbuyStepDefinitions.deOldugunuTestEder(java.lang.String)"
             },
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 109000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "kullanici sayfayi kapatir",
-            "match": {
-              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
-            },
-            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@diger"
+            "name": "@smoke"
+          },
+          {
+            "name": "@hook"
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-31T14:26:15.472Z",
+        "start_timestamp": "2021-01-01T20:41:59.902Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 14,
         "name": "TC08_her_url\u0027e_gitmeli",
         "description": "",
         "id": "us1006-dinamik-url-test;tc08-her-url-e-gitmeli;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1422000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 11447000000,
+              "duration": 15358000000,
               "status": "passed"
             },
             "line": 6,
@@ -483,7 +614,7 @@
           },
           {
             "result": {
-              "duration": 57000000,
+              "duration": 123000000,
               "status": "passed"
             },
             "line": 7,
@@ -498,23 +629,14 @@
               "location": "stepdefinitions.BestbuyStepDefinitions.deOldugunuTestEder(java.lang.String)"
             },
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 115000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "kullanici sayfayi kapatir",
-            "match": {
-              "location": "stepdefinitions.AmazonStepDefinitions.kullaniciSayfayiKapatir()"
-            },
-            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@diger"
+            "name": "@smoke"
+          },
+          {
+            "name": "@hook"
           }
         ]
       }
@@ -526,7 +648,7 @@
     "uri": "file:src/test/resources/features/US1006_Dinamik_url_test.feature",
     "tags": [
       {
-        "name": "@diger",
+        "name": "@smoke",
         "type": "Tag",
         "location": {
           "line": 2,
@@ -539,17 +661,38 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-12-31T14:26:27.120Z",
+        "start_timestamp": "2021-01-01T20:42:16.857Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 22,
         "name": "TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali",
         "description": "",
         "id": "us1007-kullanici-data-ekleyebilmeli;tc09-5-farkli-kisi-ile-farkli-kombinasyonlari-calismali;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 7488000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 8112000000,
+              "duration": 9061000000,
               "status": "passed"
             },
             "line": 6,
@@ -567,7 +710,7 @@
           },
           {
             "result": {
-              "duration": 391000000,
+              "duration": 521000000,
               "status": "passed"
             },
             "line": 7,
@@ -579,7 +722,7 @@
           },
           {
             "result": {
-              "duration": 327000000,
+              "duration": 182000000,
               "status": "passed"
             },
             "line": 8,
@@ -597,7 +740,7 @@
           },
           {
             "result": {
-              "duration": 1011000000,
+              "duration": 1008000000,
               "status": "passed"
             },
             "line": 9,
@@ -615,7 +758,7 @@
           },
           {
             "result": {
-              "duration": 163000000,
+              "duration": 178000000,
               "status": "passed"
             },
             "line": 10,
@@ -633,7 +776,7 @@
           },
           {
             "result": {
-              "duration": 244000000,
+              "duration": 234000000,
               "status": "passed"
             },
             "line": 11,
@@ -651,7 +794,7 @@
           },
           {
             "result": {
-              "duration": 204000000,
+              "duration": 218000000,
               "status": "passed"
             },
             "line": 12,
@@ -669,7 +812,7 @@
           },
           {
             "result": {
-              "duration": 158000000,
+              "duration": 182000000,
               "status": "passed"
             },
             "line": 13,
@@ -687,7 +830,7 @@
           },
           {
             "result": {
-              "duration": 408000000,
+              "duration": 438000000,
               "status": "passed"
             },
             "line": 14,
@@ -705,7 +848,7 @@
           },
           {
             "result": {
-              "duration": 213000000,
+              "duration": 242000000,
               "status": "passed"
             },
             "line": 15,
@@ -723,7 +866,7 @@
           },
           {
             "result": {
-              "duration": 132000000,
+              "duration": 295000000,
               "status": "passed"
             },
             "line": 16,
@@ -735,7 +878,7 @@
           },
           {
             "result": {
-              "duration": 234000000,
+              "duration": 305000000,
               "status": "passed"
             },
             "line": 17,
@@ -753,7 +896,7 @@
           },
           {
             "result": {
-              "duration": 426000000,
+              "duration": 134000000,
               "status": "passed"
             },
             "line": 18,
@@ -771,7 +914,7 @@
           },
           {
             "result": {
-              "duration": 180000000,
+              "duration": 479000000,
               "status": "passed"
             },
             "line": 19,
@@ -784,25 +927,43 @@
         ],
         "tags": [
           {
-            "name": "@wip"
-          },
-          {
-            "name": "@diger"
+            "name": "@smoke"
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-31T14:26:39.335Z",
+        "start_timestamp": "2021-01-01T20:42:37.839Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 23,
         "name": "TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali",
         "description": "",
         "id": "us1007-kullanici-data-ekleyebilmeli;tc09-5-farkli-kisi-ile-farkli-kombinasyonlari-calismali;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 7214000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 7875000000,
+              "duration": 7789000000,
               "status": "passed"
             },
             "line": 6,
@@ -820,7 +981,7 @@
           },
           {
             "result": {
-              "duration": 300000000,
+              "duration": 296000000,
               "status": "passed"
             },
             "line": 7,
@@ -832,7 +993,7 @@
           },
           {
             "result": {
-              "duration": 176000000,
+              "duration": 406000000,
               "status": "passed"
             },
             "line": 8,
@@ -850,7 +1011,7 @@
           },
           {
             "result": {
-              "duration": 1002000000,
+              "duration": 1015000000,
               "status": "passed"
             },
             "line": 9,
@@ -868,7 +1029,7 @@
           },
           {
             "result": {
-              "duration": 179000000,
+              "duration": 183000000,
               "status": "passed"
             },
             "line": 10,
@@ -886,7 +1047,7 @@
           },
           {
             "result": {
-              "duration": 203000000,
+              "duration": 233000000,
               "status": "passed"
             },
             "line": 11,
@@ -904,7 +1065,7 @@
           },
           {
             "result": {
-              "duration": 159000000,
+              "duration": 303000000,
               "status": "passed"
             },
             "line": 12,
@@ -922,7 +1083,7 @@
           },
           {
             "result": {
-              "duration": 164000000,
+              "duration": 433000000,
               "status": "passed"
             },
             "line": 13,
@@ -940,7 +1101,7 @@
           },
           {
             "result": {
-              "duration": 466000000,
+              "duration": 485000000,
               "status": "passed"
             },
             "line": 14,
@@ -958,7 +1119,7 @@
           },
           {
             "result": {
-              "duration": 222000000,
+              "duration": 167000000,
               "status": "passed"
             },
             "line": 15,
@@ -976,7 +1137,7 @@
           },
           {
             "result": {
-              "duration": 125000000,
+              "duration": 191000000,
               "status": "passed"
             },
             "line": 16,
@@ -988,7 +1149,7 @@
           },
           {
             "result": {
-              "duration": 224000000,
+              "duration": 390000000,
               "status": "passed"
             },
             "line": 17,
@@ -1006,7 +1167,7 @@
           },
           {
             "result": {
-              "duration": 374000000,
+              "duration": 168000000,
               "status": "passed"
             },
             "line": 18,
@@ -1024,7 +1185,7 @@
           },
           {
             "result": {
-              "duration": 98000000,
+              "duration": 652000000,
               "status": "passed"
             },
             "line": 19,
@@ -1037,25 +1198,43 @@
         ],
         "tags": [
           {
-            "name": "@wip"
-          },
-          {
-            "name": "@diger"
+            "name": "@smoke"
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-31T14:26:50.920Z",
+        "start_timestamp": "2021-01-01T20:42:57.785Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 24,
         "name": "TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali",
         "description": "",
         "id": "us1007-kullanici-data-ekleyebilmeli;tc09-5-farkli-kisi-ile-farkli-kombinasyonlari-calismali;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 7714000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 7803000000,
+              "duration": 9669000000,
               "status": "passed"
             },
             "line": 6,
@@ -1073,7 +1252,7 @@
           },
           {
             "result": {
-              "duration": 769000000,
+              "duration": 517000000,
               "status": "passed"
             },
             "line": 7,
@@ -1085,7 +1264,7 @@
           },
           {
             "result": {
-              "duration": 209000000,
+              "duration": 292000000,
               "status": "passed"
             },
             "line": 8,
@@ -1121,7 +1300,7 @@
           },
           {
             "result": {
-              "duration": 144000000,
+              "duration": 218000000,
               "status": "passed"
             },
             "line": 10,
@@ -1139,7 +1318,7 @@
           },
           {
             "result": {
-              "duration": 155000000,
+              "duration": 165000000,
               "status": "passed"
             },
             "line": 11,
@@ -1157,7 +1336,7 @@
           },
           {
             "result": {
-              "duration": 160000000,
+              "duration": 140000000,
               "status": "passed"
             },
             "line": 12,
@@ -1175,7 +1354,7 @@
           },
           {
             "result": {
-              "duration": 145000000,
+              "duration": 147000000,
               "status": "passed"
             },
             "line": 13,
@@ -1193,7 +1372,7 @@
           },
           {
             "result": {
-              "duration": 275000000,
+              "duration": 320000000,
               "status": "passed"
             },
             "line": 14,
@@ -1211,7 +1390,7 @@
           },
           {
             "result": {
-              "duration": 128000000,
+              "duration": 140000000,
               "status": "passed"
             },
             "line": 15,
@@ -1229,7 +1408,7 @@
           },
           {
             "result": {
-              "duration": 109000000,
+              "duration": 118000000,
               "status": "passed"
             },
             "line": 16,
@@ -1241,7 +1420,7 @@
           },
           {
             "result": {
-              "duration": 206000000,
+              "duration": 243000000,
               "status": "passed"
             },
             "line": 17,
@@ -1259,7 +1438,7 @@
           },
           {
             "result": {
-              "duration": 179000000,
+              "duration": 147000000,
               "status": "passed"
             },
             "line": 18,
@@ -1277,7 +1456,7 @@
           },
           {
             "result": {
-              "duration": 130000000,
+              "duration": 284000000,
               "status": "passed"
             },
             "line": 19,
@@ -1290,25 +1469,43 @@
         ],
         "tags": [
           {
-            "name": "@wip"
-          },
-          {
-            "name": "@diger"
+            "name": "@smoke"
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-31T14:27:02.361Z",
+        "start_timestamp": "2021-01-01T20:43:18.928Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 25,
         "name": "TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali",
         "description": "",
         "id": "us1007-kullanici-data-ekleyebilmeli;tc09-5-farkli-kisi-ile-farkli-kombinasyonlari-calismali;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 6537000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 7813000000,
+              "duration": 8830000000,
               "status": "passed"
             },
             "line": 6,
@@ -1326,7 +1523,7 @@
           },
           {
             "result": {
-              "duration": 615000000,
+              "duration": 1351000000,
               "status": "passed"
             },
             "line": 7,
@@ -1338,7 +1535,7 @@
           },
           {
             "result": {
-              "duration": 314000000,
+              "duration": 276000000,
               "status": "passed"
             },
             "line": 8,
@@ -1356,7 +1553,7 @@
           },
           {
             "result": {
-              "duration": 1006000000,
+              "duration": 1015000000,
               "status": "passed"
             },
             "line": 9,
@@ -1374,7 +1571,7 @@
           },
           {
             "result": {
-              "duration": 184000000,
+              "duration": 135000000,
               "status": "passed"
             },
             "line": 10,
@@ -1392,7 +1589,7 @@
           },
           {
             "result": {
-              "duration": 173000000,
+              "duration": 152000000,
               "status": "passed"
             },
             "line": 11,
@@ -1410,7 +1607,7 @@
           },
           {
             "result": {
-              "duration": 137000000,
+              "duration": 192000000,
               "status": "passed"
             },
             "line": 12,
@@ -1428,7 +1625,7 @@
           },
           {
             "result": {
-              "duration": 162000000,
+              "duration": 176000000,
               "status": "passed"
             },
             "line": 13,
@@ -1446,7 +1643,7 @@
           },
           {
             "result": {
-              "duration": 311000000,
+              "duration": 360000000,
               "status": "passed"
             },
             "line": 14,
@@ -1464,7 +1661,7 @@
           },
           {
             "result": {
-              "duration": 163000000,
+              "duration": 149000000,
               "status": "passed"
             },
             "line": 15,
@@ -1482,7 +1679,7 @@
           },
           {
             "result": {
-              "duration": 133000000,
+              "duration": 156000000,
               "status": "passed"
             },
             "line": 16,
@@ -1494,7 +1691,7 @@
           },
           {
             "result": {
-              "duration": 328000000,
+              "duration": 185000000,
               "status": "passed"
             },
             "line": 17,
@@ -1512,7 +1709,7 @@
           },
           {
             "result": {
-              "duration": 148000000,
+              "duration": 190000000,
               "status": "passed"
             },
             "line": 18,
@@ -1530,7 +1727,7 @@
           },
           {
             "result": {
-              "duration": 136000000,
+              "duration": 269000000,
               "status": "passed"
             },
             "line": 19,
@@ -1543,25 +1740,43 @@
         ],
         "tags": [
           {
-            "name": "@wip"
-          },
-          {
-            "name": "@diger"
+            "name": "@smoke"
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-31T14:27:13.999Z",
+        "start_timestamp": "2021-01-01T20:43:38.920Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 26,
         "name": "TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali",
         "description": "",
         "id": "us1007-kullanici-data-ekleyebilmeli;tc09-5-farkli-kisi-ile-farkli-kombinasyonlari-calismali;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 6272000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 7461000000,
+              "duration": 7671000000,
               "status": "passed"
             },
             "line": 6,
@@ -1579,7 +1794,7 @@
           },
           {
             "result": {
-              "duration": 248000000,
+              "duration": 161000000,
               "status": "passed"
             },
             "line": 7,
@@ -1591,7 +1806,7 @@
           },
           {
             "result": {
-              "duration": 131000000,
+              "duration": 149000000,
               "status": "passed"
             },
             "line": 8,
@@ -1609,7 +1824,7 @@
           },
           {
             "result": {
-              "duration": 1008000000,
+              "duration": 1014000000,
               "status": "passed"
             },
             "line": 9,
@@ -1627,7 +1842,7 @@
           },
           {
             "result": {
-              "duration": 123000000,
+              "duration": 137000000,
               "status": "passed"
             },
             "line": 10,
@@ -1645,7 +1860,7 @@
           },
           {
             "result": {
-              "duration": 118000000,
+              "duration": 135000000,
               "status": "passed"
             },
             "line": 11,
@@ -1663,7 +1878,7 @@
           },
           {
             "result": {
-              "duration": 118000000,
+              "duration": 120000000,
               "status": "passed"
             },
             "line": 12,
@@ -1681,7 +1896,7 @@
           },
           {
             "result": {
-              "duration": 114000000,
+              "duration": 126000000,
               "status": "passed"
             },
             "line": 13,
@@ -1699,7 +1914,7 @@
           },
           {
             "result": {
-              "duration": 234000000,
+              "duration": 298000000,
               "status": "passed"
             },
             "line": 14,
@@ -1717,7 +1932,7 @@
           },
           {
             "result": {
-              "duration": 135000000,
+              "duration": 146000000,
               "status": "passed"
             },
             "line": 15,
@@ -1735,7 +1950,7 @@
           },
           {
             "result": {
-              "duration": 99000000,
+              "duration": 107000000,
               "status": "passed"
             },
             "line": 16,
@@ -1747,7 +1962,7 @@
           },
           {
             "result": {
-              "duration": 197000000,
+              "duration": 187000000,
               "status": "passed"
             },
             "line": 17,
@@ -1765,7 +1980,7 @@
           },
           {
             "result": {
-              "duration": 126000000,
+              "duration": 196000000,
               "status": "passed"
             },
             "line": 18,
@@ -1783,7 +1998,7 @@
           },
           {
             "result": {
-              "duration": 87000000,
+              "duration": 103000000,
               "status": "passed"
             },
             "line": 19,
@@ -1796,10 +2011,7 @@
         ],
         "tags": [
           {
-            "name": "@wip"
-          },
-          {
-            "name": "@diger"
+            "name": "@smoke"
           }
         ]
       }
@@ -1811,7 +2023,7 @@
     "uri": "file:src/test/resources/features/US1007_kullanici_data_ekleyebilmeli%20.feature",
     "tags": [
       {
-        "name": "@wip",
+        "name": "@smoke",
         "type": "Tag",
         "location": {
           "line": 1,

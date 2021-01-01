@@ -1,4 +1,4 @@
-@smoke
+@regression
 Feature:
   Scenario: TC10 kullanici gecerli bilgilerle giris yapar
     Given kullanici "Ck_Hotels_Url" anasayfaya gider
