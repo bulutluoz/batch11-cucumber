@@ -7,9 +7,9 @@ Feature: US1011_AutomationPractice
     And ap cinsiyet secer
     And ap isim girer
     And ap soyisim girer
-    And ap email girer
     And ap password girer
     And pagedown tusuna basar
+    And "1" saniye bekler
     And ap gun secer
     And ap ay secer
     And ap yil secer
@@ -22,6 +22,7 @@ Feature: US1011_AutomationPractice
     And ap state dropdown secer
     And ap adres zip kod yazar
     And pagedown tusuna basar
+    And "1" saniye bekler
     And ap country dropdown secer
     And bilgi ekleme yapar
     And home phone yazar

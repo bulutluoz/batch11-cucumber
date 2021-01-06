@@ -46,6 +46,12 @@ public class AutomationPracticepage {
     @FindBy(xpath = "(//input[@type='checkbox'])[2]")
     public WebElement receiveCheckBox;
 
+    @FindBy(xpath = "(//input[@type='text'])[5]")
+    public WebElement adresFirstName;
+
+    @FindBy(xpath = "(//input[@type='text'])[6]")
+    public WebElement adresLastName;
+
     @FindBy(xpath = "(//input[@type='text'])[7]")
     public WebElement company;
 
@@ -75,6 +81,10 @@ public class AutomationPracticepage {
 
     @FindBy(xpath = "(//input[@type='text'])[13]")
     public WebElement mobilePhone;
+
+    @FindBy(xpath = "(//input[@type='text'])[14]")
+    public WebElement reference;
+
 
     @FindBy(xpath = "(//button[@type='submit'])[2]")
     public WebElement registerButton;
