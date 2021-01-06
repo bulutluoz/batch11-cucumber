@@ -2,6 +2,7 @@ package stepdefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
+import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
@@ -144,5 +145,17 @@ public class AutomationPracticeStepDefinitions {
     @Then("ap register butonuna basar")
     public void ap_register_butonuna_basar() {
         automationPracticepage.registerButton.click();
+    }
+
+    @And("email kutusuna gecersiz email yazar ve enter'a basar")
+    public void emailKutusunaGecersizEmailYazarVeEnterABasar() {
+
+        automationPracticepage.emailTextBox.sendKeys(ConfigReader.getProperty("Ap_gecersiz_email")+Keys.ENTER);
+    }
+
+    @And("hata mesajini dorular")
+    public void hataMesajiniDorular() {
+        Assert.assertEquals(ConfigReader.getProperty("Ap_hata_mesaji"),automationPracticepage.hataYazisi.getText());
+
     }
 }

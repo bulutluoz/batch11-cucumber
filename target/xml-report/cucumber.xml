@@ -1,79 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="265.242">
-<testcase classname="US1001 amazon page search" name="TC01 amazon arama testi" time="56.666">
-<system-out><![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
-And iphone icin arama yapar.................................................passed
-Then sonucun iphone icerdigini test eder....................................passed
-Given kullanici amazon anasayfaya gider.....................................passed
-And teapot icin arama yapar.................................................passed
-Then sonucun teapot icerdigini test eder....................................passed
-Given kullanici amazon anasayfaya gider.....................................passed
-And flower icin arama yapar.................................................passed
-Then sonucun flower icerdigini test eder....................................passed
-And kullanici sayfayi kapatir...............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="US1002_amazon_search_background" name="TC02_amazon_iphone_arama_testi" time="23.093">
-<system-out><![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
-And iphone icin arama yapar.................................................passed
-Then sonucun iphone icerdigini test eder....................................passed
-And kullanici sayfayi kapatir...............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="US1002_amazon_search_background" name="TC03_amazon_teapot_arama_testi" time="26.752">
-<system-out><![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
-And teapot icin arama yapar.................................................passed
-Then sonucun teapot icerdigini test eder....................................passed
-And kullanici sayfayi kapatir...............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="US1002_amazon_search_background" name="TC04_amazon_flower_arama_testi" time="29.574">
-<system-out><![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
-And flower icin arama yapar.................................................passed
-Then sonucun flower icerdigini test eder....................................passed
-And kullanici sayfayi kapatir...............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="US1003_amazon_search_parametreli" name="TC05_parametre_kullanma" time="22.442">
-<failure message="" type="java.lang.AssertionError"><![CDATA[When kullanici amazon anasayfaya gider......................................passed
-And "abdullah" icin arama yapar.............................................passed
-Then sonucun "cemal" icerdigini test eder...................................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepdefinitions.AmazonStepDefinitions.sonucunIcerdiginiTestEder(AmazonStepDefinitions.java:63)
-	at ✽.sonucun "cemal" icerdigini test eder(file:///C:/Users/lenovo/IdeaProjects/mycucumberframework/src/test/resources/features/US1003_amazon_search_parametreli.feature:7)
-]]></failure>
-</testcase>
-<testcase classname="US1004_amazon_search_scenario_outline" name="TC06_coklu_arama" time="24.077">
-<system-out><![CDATA[When kullanici amazon anasayfaya gider......................................passed
-Then "yasin" icin arama yapar...............................................passed
-And sonucun "yasin" icerdigini test eder....................................passed
-And kullanici sayfayi kapatir...............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="US1004_amazon_search_scenario_outline" name="TC06_coklu_arama_2" time="26.191">
-<system-out><![CDATA[When kullanici amazon anasayfaya gider......................................passed
-Then "samsung" icin arama yapar.............................................passed
-And sonucun "samsung" icerdigini test eder..................................passed
-And kullanici sayfayi kapatir...............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="US1004_amazon_search_scenario_outline" name="TC06_coklu_arama_3" time="24.635">
-<system-out><![CDATA[When kullanici amazon anasayfaya gider......................................passed
-Then "headphone" icin arama yapar...........................................passed
-And sonucun "headphone" icerdigini test eder................................passed
-And kullanici sayfayi kapatir...............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="US1004_amazon_search_scenario_outline" name="TC06_coklu_arama_4" time="30.783">
-<system-out><![CDATA[When kullanici amazon anasayfaya gider......................................passed
-Then "pencil" icin arama yapar..............................................passed
-And sonucun "pencil" icerdigini test eder...................................passed
-And kullanici sayfayi kapatir...............................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="18.18">
+<testcase classname="US1011_AutomationPractice" name="TC_15_Yanlis_mail_ile_giris_yapilamaz" time="17.664">
+<system-out><![CDATA[When kullanici "Ap_url" anasayfaya gider....................................passed
+And Ap sign_in tusuna tiklar................................................passed
+And email kutusuna gecersiz email yazar ve enter'a basar....................passed
+And hata mesajini dorular...................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

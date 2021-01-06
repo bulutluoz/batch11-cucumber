@@ -31,5 +31,13 @@ Feature: US1011_AutomationPractice
     And ap register butonuna basar
 
 
+    @automation
+  Scenario: TC_15_Yanlis_mail_ile_giris_yapilamaz
+    When kullanici "Ap_url" anasayfaya gider
+    And Ap sign_in tusuna tiklar
+    And email kutusuna gecersiz email yazar ve enter'a basar
+    And hata mesajini dorular
+    And kullanici sayfayi kapatir
+
 
 

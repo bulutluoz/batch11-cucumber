@@ -85,6 +85,9 @@ public class AutomationPracticepage {
     @FindBy(xpath = "(//input[@type='text'])[14]")
     public WebElement reference;
 
+    @FindBy(xpath = "//*[text()='Invalid email address.']")
+    public WebElement hataYazisi;
+
 
     @FindBy(xpath = "(//button[@type='submit'])[2]")
     public WebElement registerButton;
