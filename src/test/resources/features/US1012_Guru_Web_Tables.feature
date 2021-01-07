@@ -14,3 +14,6 @@ Feature: US1012_Guru_Web_Tables
     When kullanici "Web_Table_url" anasayfaya gider
     Then satir sayisi "5", sutun sayisi "5" olan elementi yazdirir
 
+  Scenario:  TC_19_kullanici_sutun_basligi_ile_liste_alabilmeli
+    When kullanici "Web_Table_url" anasayfaya gider
+    Then basligi "Current Price (Rs)" olan sutundaki tum bilgileri yazdirir

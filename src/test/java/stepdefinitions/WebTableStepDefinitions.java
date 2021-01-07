@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import pages.WebtablePage;
 import utilities.Driver;
 
+import java.util.List;
+
 public class WebTableStepDefinitions {
     WebtablePage webtablePage=new WebtablePage();
 
@@ -73,5 +75,27 @@ public class WebTableStepDefinitions {
         String arananXpath="//tbody//tr["+satir+"]//td["+sutun+"]";
         WebElement arananElement=Driver.getDriver().findElement(By.xpath(arananXpath));
         System.out.println(satir + ". satir "+ sutun + ".sutundaki yazi : " + arananElement.getText());
+    }
+
+    @Then("basligi {string} olan sutundaki tum bilgileri yazdirir")
+    public void basligiOlanSutundakiTumBilgileriYazdirir(String baslik) {
+        int baslikIndex=-1;
+        for (int i=0;i<webtablePage.basliklarListesi.size();i++){
+            if (webtablePage.basliklarListesi.get(i).getText().equals(baslik)){
+                baslikIndex=i+1;
+            }
+        }
+        
+        if (baslikIndex>0){
+            String sutunXpath="//tbody//tr//td["+baslikIndex+"]";
+            List<WebElement> istenenSutunListesi=Driver.getDriver().findElements(By.xpath(sutunXpath));
+            for (WebElement w:istenenSutunListesi
+                 ) {
+                System.out.println(w.getText());
+            }
+            
+            
+        }else System.out.println("istediginiz baslik bulunamadi");;
+
     }
 }

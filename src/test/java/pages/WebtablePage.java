@@ -16,5 +16,8 @@ public class WebtablePage {
     @FindBy(xpath = "//tbody//tr//td[1]")
     public List<WebElement> sirketlerListesiWE;
 
+    @FindBy(xpath="//thead//tr[1]//th")
+    public List<WebElement> basliklarListesi;
+
 }
 
