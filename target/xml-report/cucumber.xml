@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="18.18">
-<testcase classname="US1011_AutomationPractice" name="TC_15_Yanlis_mail_ile_giris_yapilamaz" time="17.664">
-<system-out><![CDATA[When kullanici "Ap_url" anasayfaya gider....................................passed
-And Ap sign_in tusuna tiklar................................................passed
-And email kutusuna gecersiz email yazar ve enter'a basar....................passed
-And hata mesajini dorular...................................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.485">
+<testcase classname="Unknown" name="_2" time="16.162">
+<system-out><![CDATA[When kullanici "demoqa_url" anasayfaya gider................................passed
+Then alerts yazisina tiklar.................................................passed
+And 2.Click me yazisina tiklar..............................................passed
+And alertin gorunur olmasini bekler.........................................passed
+Then alert yazisini yazdirir................................................passed
+And alerti ok diyerek kapatir...............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

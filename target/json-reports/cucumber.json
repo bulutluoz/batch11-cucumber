@@ -1,9 +1,9 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-01-06T18:36:54.495Z",
+        "start_timestamp": "2021-01-08T12:51:53.325Z",
         "before": [
           {
             "result": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 35,
-        "name": "TC_15_Yanlis_mail_ile_giris_yapilamaz",
+        "line": 3,
+        "name": "",
         "description": "",
-        "id": "us1011-automationpractice;tc-15-yanlis-mail-ile-giris-yapilamaz",
+        "id": ";",
         "after": [
           {
             "result": {
-              "duration": 427000000,
+              "duration": 363000000,
               "status": "passed"
             },
             "match": {
@@ -35,15 +35,15 @@
         "steps": [
           {
             "result": {
-              "duration": 14054000000,
+              "duration": 10373000000,
               "status": "passed"
             },
-            "line": 36,
-            "name": "kullanici \"Ap_url\" anasayfaya gider",
+            "line": 4,
+            "name": "kullanici \"demoqa_url\" anasayfaya gider",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Ap_url\"",
+                  "val": "\"demoqa_url\"",
                   "offset": 10
                 }
               ],
@@ -53,53 +53,92 @@
           },
           {
             "result": {
-              "duration": 2124000000,
+              "duration": 131000000,
               "status": "passed"
             },
-            "line": 37,
-            "name": "Ap sign_in tusuna tiklar",
+            "line": 5,
+            "name": "alerts yazisina tiklar",
             "match": {
-              "location": "stepdefinitions.AutomationPracticeStepDefinitions.ap_sign_in_tusuna_tiklar()"
+              "location": "stepdefinitions.DemoqaStepDefinitions.alerts_yazisina_tiklar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 76000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "2.Click me yazisina tiklar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.DemoqaStepDefinitions.click_me_yazisina_tiklar(java.lang.Integer)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 343000000,
+              "duration": 5102000000,
               "status": "passed"
             },
-            "line": 38,
-            "name": "email kutusuna gecersiz email yazar ve enter\u0027a basar",
+            "line": 7,
+            "name": "alertin gorunur olmasini bekler",
             "match": {
-              "location": "stepdefinitions.AutomationPracticeStepDefinitions.emailKutusunaGecersizEmailYazarVeEnterABasar()"
+              "location": "stepdefinitions.DemoqaStepDefinitions.alertin_gorunur_olmasini_bekler()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 602000000,
+              "duration": 17000000,
               "status": "passed"
             },
-            "line": 39,
-            "name": "hata mesajini dorular",
+            "line": 8,
+            "name": "alert yazisini yazdirir",
             "match": {
-              "location": "stepdefinitions.AutomationPracticeStepDefinitions.hataMesajiniDorular()"
+              "location": "stepdefinitions.DemoqaStepDefinitions.alert_yazisini_yazdirir()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "alerti ok diyerek kapatir",
+            "match": {
+              "location": "stepdefinitions.DemoqaStepDefinitions.alertiOkDiyerekKapatir()"
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@automation"
+            "name": "@wait"
           }
         ]
       }
     ],
-    "name": "US1011_AutomationPractice",
+    "name": "",
     "description": "",
-    "id": "us1011-automationpractice",
+    "id": "",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/US1011_AutomationPractice.feature",
-    "tags": []
+    "uri": "file:src/test/resources/features/asd.feature",
+    "tags": [
+      {
+        "name": "@wait",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]
