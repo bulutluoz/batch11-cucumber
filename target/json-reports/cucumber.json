@@ -3,136 +3,85 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-01-08T12:51:53.325Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinitions.Hooks.setup()"
-            }
-          }
-        ],
-        "line": 3,
-        "name": "",
+        "start_timestamp": "2021-01-25T20:51:43.280Z",
+        "line": 9,
+        "name": "TC_22 kullanici DBUtils ile veri okur",
         "description": "",
-        "id": ";",
-        "after": [
-          {
-            "result": {
-              "duration": 363000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
+        "id": "us1014-dbread;tc-22-kullanici-dbutils-ile-veri-okur",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 10373000000,
+              "duration": 2102000000,
               "status": "passed"
             },
-            "line": 4,
-            "name": "kullanici \"demoqa_url\" anasayfaya gider",
+            "line": 10,
+            "name": "kullanici DBUtils ile CK_Hotels veritabanina baglanir",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"demoqa_url\"",
-                  "offset": 10
-                }
-              ],
-              "location": "stepdefinitions.BestbuyStepDefinitions.kullanici_anasayfaya_gider(java.lang.String)"
+              "location": "dbStepdefinitions.DbReadWithDBUtils.kullanici_db_utils_ile_ck_hotels_veritabanina_baglanir()"
             },
-            "keyword": "When "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 131000000,
+              "duration": 322000000,
               "status": "passed"
             },
-            "line": 5,
-            "name": "alerts yazisina tiklar",
-            "match": {
-              "location": "stepdefinitions.DemoqaStepDefinitions.alerts_yazisina_tiklar()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 76000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "2.Click me yazisina tiklar",
+            "line": 11,
+            "name": "kullanici DBUtils ile \"tHOTELROOM\" tablosundaki \"Price\" verilerini alir",
             "match": {
               "arguments": [
                 {
-                  "val": "2",
-                  "offset": 0
+                  "val": "\"tHOTELROOM\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Price\"",
+                  "offset": 48
                 }
               ],
-              "location": "stepdefinitions.DemoqaStepDefinitions.click_me_yazisina_tiklar(java.lang.Integer)"
+              "location": "dbStepdefinitions.DbReadWithDBUtils.kullanici_db_utils_ile_tablosundaki_verilerini_alir(java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 5102000000,
+              "duration": 385000000,
               "status": "passed"
             },
-            "line": 7,
-            "name": "alertin gorunur olmasini bekler",
+            "line": 12,
+            "name": "kullanici DBUtils ile \"Price\" sutunundaki verileri okur",
             "match": {
-              "location": "stepdefinitions.DemoqaStepDefinitions.alertin_gorunur_olmasini_bekler()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 17000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "alert yazisini yazdirir",
-            "match": {
-              "location": "stepdefinitions.DemoqaStepDefinitions.alert_yazisini_yazdirir()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 30000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "alerti ok diyerek kapatir",
-            "match": {
-              "location": "stepdefinitions.DemoqaStepDefinitions.alertiOkDiyerekKapatir()"
+              "arguments": [
+                {
+                  "val": "\"Price\"",
+                  "offset": 22
+                }
+              ],
+              "location": "dbStepdefinitions.DbReadWithDBUtils.kullanici_db_utils_ile_sutunundaki_verileri_okur(java.lang.String)"
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@wait"
+            "name": "@db"
+          },
+          {
+            "name": "@dbUtil"
           }
         ]
       }
     ],
-    "name": "",
+    "name": "US1014_DbRead",
     "description": "",
-    "id": "",
+    "id": "us1014-dbread",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/asd.feature",
+    "uri": "file:src/test/resources/features/US1014_DbRead.feature",
     "tags": [
       {
-        "name": "@wait",
+        "name": "@db",
         "type": "Tag",
         "location": {
           "line": 1,

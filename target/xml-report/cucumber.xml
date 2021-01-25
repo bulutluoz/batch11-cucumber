@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.485">
-<testcase classname="Unknown" name="_2" time="16.162">
-<system-out><![CDATA[When kullanici "demoqa_url" anasayfaya gider................................passed
-Then alerts yazisina tiklar.................................................passed
-And 2.Click me yazisina tiklar..............................................passed
-And alertin gorunur olmasini bekler.........................................passed
-Then alert yazisini yazdirir................................................passed
-And alerti ok diyerek kapatir...............................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="3.354">
+<testcase classname="US1014_DbRead" name="TC_22 kullanici DBUtils ile veri okur" time="2.922">
+<system-out><![CDATA[Given kullanici DBUtils ile CK_Hotels veritabanina baglanir.................passed
+And kullanici DBUtils ile "tHOTELROOM" tablosundaki "Price" verilerini alir.passed
+And kullanici DBUtils ile "Price" sutunundaki verileri okur.................passed
 ]]></system-out>
 </testcase>
 </testsuite>
