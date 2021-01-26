@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         features="src/test/resources/features",
         glue="dbStepdefinitions",
         dryRun = false,
-        tags="@dbUtil"
+        tags="@dbread"
 )
 public class DbRunner {
 }

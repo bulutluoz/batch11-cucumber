@@ -1,93 +1,85 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-01-25T20:51:43.280Z",
-        "line": 9,
-        "name": "TC_22 kullanici DBUtils ile veri okur",
+        "start_timestamp": "2021-01-26T20:27:07.127Z",
+        "line": 3,
+        "name": "TC_23 Kullanici tHOTEL tablosundan mail fieldini okur",
         "description": "",
-        "id": "us1014-dbread;tc-22-kullanici-dbutils-ile-veri-okur",
+        "id": "us1015-dbutils-ile-yapilan-sorgular;tc-23-kullanici-thotel-tablosundan-mail-fieldini-okur",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2102000000,
+              "duration": 2144000000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 4,
             "name": "kullanici DBUtils ile CK_Hotels veritabanina baglanir",
             "match": {
-              "location": "dbStepdefinitions.DbReadWithDBUtils.kullanici_db_utils_ile_ck_hotels_veritabanina_baglanir()"
+              "location": "dbStepdefinitions.DbWithDBUtils.kullanici_db_utils_ile_ck_hotels_veritabanina_baglanir()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 322000000,
+              "duration": 317000000,
               "status": "passed"
             },
-            "line": 11,
-            "name": "kullanici DBUtils ile \"tHOTELROOM\" tablosundaki \"Price\" verilerini alir",
+            "line": 5,
+            "name": "kullanici DBUtils ile \"tHOTEL\" tablosundan \"EMail\" verilerini okur",
             "match": {
               "arguments": [
                 {
-                  "val": "\"tHOTELROOM\"",
+                  "val": "\"tHOTEL\"",
                   "offset": 22
                 },
                 {
-                  "val": "\"Price\"",
-                  "offset": 48
+                  "val": "\"EMail\"",
+                  "offset": 43
                 }
               ],
-              "location": "dbStepdefinitions.DbReadWithDBUtils.kullanici_db_utils_ile_tablosundaki_verilerini_alir(java.lang.String,java.lang.String)"
+              "location": "dbStepdefinitions.DbWithDBUtils.kullanici_db_utils_ile_tablosundan_verilerini_okur(java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 385000000,
+              "duration": 1360000000,
               "status": "passed"
             },
-            "line": 12,
-            "name": "kullanici DBUtils ile \"Price\" sutunundaki verileri okur",
+            "line": 6,
+            "name": "IDHotel degeri 8 olan kaydin Email bilgisinin \"new@email\" oldugunu test eder",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Price\"",
-                  "offset": 22
+                  "val": "8",
+                  "offset": 15
+                },
+                {
+                  "val": "\"new@email\"",
+                  "offset": 46
                 }
               ],
-              "location": "dbStepdefinitions.DbReadWithDBUtils.kullanici_db_utils_ile_sutunundaki_verileri_okur(java.lang.String)"
+              "location": "dbStepdefinitions.DbWithDBUtils.id_hotel_degeri_olan_kaydin_email_bilgisinin_oldugunu_test_eder(java.lang.Integer,java.lang.String)"
             },
-            "keyword": "And "
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@db"
-          },
-          {
-            "name": "@dbUtil"
+            "name": "@dbread"
           }
         ]
       }
     ],
-    "name": "US1014_DbRead",
+    "name": "US1015_DBUtils ile yapilan sorgular",
     "description": "",
-    "id": "us1014-dbread",
+    "id": "us1015-dbutils-ile-yapilan-sorgular",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/US1014_DbRead.feature",
-    "tags": [
-      {
-        "name": "@db",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "uri": "file:src/test/resources/features/US1015_DBUtils.feature",
+    "tags": []
   }
 ]
