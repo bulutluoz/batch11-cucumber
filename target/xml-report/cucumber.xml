@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="4.393">
-<testcase classname="US1015_DBUtils ile yapilan sorgular" name="TC_23 Kullanici tHOTEL tablosundan mail fieldini okur" time="3.927">
-<system-out><![CDATA[Given kullanici DBUtils ile CK_Hotels veritabanina baglanir.................passed
-And kullanici DBUtils ile "tHOTEL" tablosundan "EMail" verilerini okur......passed
-Then IDHotel degeri 8 olan kaydin Email bilgisinin "new@email" oldugunu test eder.passed
-]]></system-out>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.604">
+<testcase classname="US1002_amazon_search_background" name="TC02_amazon_iphone_arama_testi" time="9.324">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
+And iphone icin arama yapar.................................................passed
+Then sonucun teapot icerdigini test eder....................................failed
+And kullanici sayfayi kapatir...............................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.AmazonStepDefinitions.sonucun_tea_pot_icerdigini_test_eder(AmazonStepDefinitions.java:36)
+	at ✽.sonucun teapot icerdigini test eder(file:///C:/Users/lenovo/IdeaProjects/mycucumberframework/src/test/resources/features/US1002_amazon_search_background.feature:12)
+]]></failure>
 </testcase>
 </testsuite>

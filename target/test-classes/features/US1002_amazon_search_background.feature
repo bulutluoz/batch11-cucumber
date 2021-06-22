@@ -5,11 +5,11 @@ Feature: US1002_amazon_search_background
   Background:
     Given kullanici amazon anasayfaya gider
 
-  @smoketest @amazonarama
+  @gor
   Scenario: TC02_amazon_iphone_arama_testi
 
     And iphone icin arama yapar
-    Then sonucun iphone icerdigini test eder
+    Then sonucun teapot icerdigini test eder
     And kullanici sayfayi kapatir
 
   #  @wip work in progress
