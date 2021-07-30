@@ -5,9 +5,14 @@ import io.cucumber.java.en.Given;
 import java.sql.*;
 
 public class DbReadStepdefinitions {
-    String url="jdbc:sqlserver://184.168.194.58:1433;databaseName=crystalkeyhotels2; user=Ahmet_User;password=Ahmet123!";
-    String username="Ahmet_User";
-    String password="Ahmet123!";
+    //String url="jdbc:sqlserver://184.168.194.58:1433;databaseName=crystalkeyhotels2; user=Ahmet_User;password=Ahmet123!";
+    //String username="Ahmet_User";
+    //String password="Ahmet123!";
+
+    String url="jdbc:sqlserver://184.168.194.58:1433;databaseName=ph17934033561_fhctripdb; user=fhctipdb_user;password=P2s@rt65";
+    String username="fhctipdb_user";
+    String password="P2s@rt65";
+
 
     Connection connection; // database baglantisi icin
     Statement statement; // query calistirmak icin

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="5" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="127.678">
+<testcase classname="US1005_Walmart_parameter_arama" name="TC07_aranan_kelime_title’da_olmali" time="14.107">
+<failure message="" type="java.lang.AssertionError"><![CDATA[When kullanici walmart ana sayfaya gider....................................passed
+Then walmart sayfasinda "Nutella" icin arama yapar..........................passed
+Then walmartta sayfa basliginin "Nutella" icerdigini test eder..............failed
+And kullanici sayfayi kapatir...............................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.WalmartStepDefinitions.walmartta_sayfa_basliginin_icerdigini_test_eder(WalmartStepDefinitions.java:28)
+	at ✽.walmartta sayfa basliginin "Nutella" icerdigini test eder(file:///C:/Users/lenovo/IdeaProjects/mycucumberframework/src/test/resources/features/US1005_Walmart_parameter_arama.feature:7)
+]]></failure>
+</testcase>
+<testcase classname="US1005_Walmart_parameter_arama" name="TC07_aranan_kelime_title’da_olmali_2" time="20.189">
+<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#global\-search\-input&quot;}&#10;  (Session info: chrome=91.0.4472.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-EQ6A4S0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61678}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 555dd041c4a8a0ae75b3c2c0db30db17&#10;*** Element info: {Using=id, value=global-search-input}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[When kullanici walmart ana sayfaya gider....................................passed
+Then walmart sayfasinda "pencil" icin arama yapar...........................failed
+Then walmartta sayfa basliginin "pencil" icerdigini test eder...............skipped
+And kullanici sayfayi kapatir...............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#global\-search\-input"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EQ6A4S0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61678}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 555dd041c4a8a0ae75b3c2c0db30db17
+*** Element info: {Using=id, value=global-search-input}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.sendKeys(Unknown Source)
+	at stepdefinitions.WalmartStepDefinitions.walmart_sayfasinda_icin_arama_yapar(WalmartStepDefinitions.java:23)
+	at ✽.walmart sayfasinda "pencil" icin arama yapar(file:///C:/Users/lenovo/IdeaProjects/mycucumberframework/src/test/resources/features/US1005_Walmart_parameter_arama.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="US1005_Walmart_parameter_arama" name="TC07_aranan_kelime_title’da_olmali_3" time="20.146">
+<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#global\-search\-input&quot;}&#10;  (Session info: chrome=91.0.4472.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-EQ6A4S0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53079}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 234fbe309e2bebb9351b663bf98ea981&#10;*** Element info: {Using=id, value=global-search-input}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[When kullanici walmart ana sayfaya gider....................................passed
+Then walmart sayfasinda "tomatoes" icin arama yapar.........................failed
+Then walmartta sayfa basliginin "tomatoes" icerdigini test eder.............skipped
+And kullanici sayfayi kapatir...............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#global\-search\-input"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EQ6A4S0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53079}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 234fbe309e2bebb9351b663bf98ea981
+*** Element info: {Using=id, value=global-search-input}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.sendKeys(Unknown Source)
+	at stepdefinitions.WalmartStepDefinitions.walmart_sayfasinda_icin_arama_yapar(WalmartStepDefinitions.java:23)
+	at ✽.walmart sayfasinda "tomatoes" icin arama yapar(file:///C:/Users/lenovo/IdeaProjects/mycucumberframework/src/test/resources/features/US1005_Walmart_parameter_arama.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="US1005_Walmart_parameter_arama" name="TC07_aranan_kelime_title’da_olmali_4" time="19.96">
+<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#global\-search\-input&quot;}&#10;  (Session info: chrome=91.0.4472.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-EQ6A4S0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ada11c00a41db19c2fb5034ea252c293&#10;*** Element info: {Using=id, value=global-search-input}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[When kullanici walmart ana sayfaya gider....................................passed
+Then walmart sayfasinda "popcorn" icin arama yapar..........................failed
+Then walmartta sayfa basliginin "popcorn" icerdigini test eder..............skipped
+And kullanici sayfayi kapatir...............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#global\-search\-input"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EQ6A4S0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ada11c00a41db19c2fb5034ea252c293
+*** Element info: {Using=id, value=global-search-input}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.sendKeys(Unknown Source)
+	at stepdefinitions.WalmartStepDefinitions.walmart_sayfasinda_icin_arama_yapar(WalmartStepDefinitions.java:23)
+	at ✽.walmart sayfasinda "popcorn" icin arama yapar(file:///C:/Users/lenovo/IdeaProjects/mycucumberframework/src/test/resources/features/US1005_Walmart_parameter_arama.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="US1006_Dinamik_url_test" name="TC08_her_url'e_gitmeli" time="7.984">
+<system-out><![CDATA[When kullanici "amazon_url" anasayfaya gider................................passed
+Then "amazon_url" de oldugunu test eder.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1006_Dinamik_url_test" name="TC08_her_url'e_gitmeli_2" time="3.766">
+<system-out><![CDATA[When kullanici "bestbuy_url" anasayfaya gider...............................passed
+Then "bestbuy_url" de oldugunu test eder....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1006_Dinamik_url_test" name="TC08_her_url'e_gitmeli_3" time="9.699">
+<failure message="expected:&lt;...s://www.walmart.com/[]&gt; but was:&lt;...s://www.walmart.com/[blocked?url=Lw==&amp;uuid=9ed58f10-d420-11eb-8116-e73260071d4f&amp;vid=&amp;g=a]&gt;" type="org.junit.ComparisonFailure"><![CDATA[When kullanici "walmart_url" anasayfaya gider...............................passed
+Then "walmart_url" de oldugunu test eder....................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<...s://www.walmart.com/[]> but was:<...s://www.walmart.com/[blocked?url=Lw==&uuid=9ed58f10-d420-11eb-8116-e73260071d4f&vid=&g=a]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepdefinitions.BestbuyStepDefinitions.deOldugunuTestEder(BestbuyStepDefinitions.java:18)
+	at ✽."walmart_url" de oldugunu test eder(file:///C:/Users/lenovo/IdeaProjects/mycucumberframework/src/test/resources/features/US1006_Dinamik_url_test.feature:7)
+]]></failure>
+</testcase>
+<testcase classname="US1007_kullanici_data_ekleyebilmeli" name="TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali" time="6.336">
+<system-out><![CDATA[When kullanici "datatable_url" anasayfaya gider.............................passed
+Then new butonuna basar.....................................................passed
+And first name girer "mehmet"...............................................passed
+And "1" saniye bekler.......................................................passed
+And Last name girer "bulut".................................................passed
+And Position girer "teacher"................................................passed
+And Office girer "ankara"...................................................passed
+And Extention girer "---"...................................................passed
+And Start date girer "2020-12-10"...........................................passed
+And Salary girer "1000".....................................................passed
+And Create tusuna basar.....................................................passed
+When kullanici "mehmet" ile arama yapar.....................................passed
+Then isim bolumunde "mehmet" oldugunu dogrular..............................passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1007_kullanici_data_ekleyebilmeli" name="TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali 2" time="5.869">
+<system-out><![CDATA[When kullanici "datatable_url" anasayfaya gider.............................passed
+Then new butonuna basar.....................................................passed
+And first name girer "yasin"................................................passed
+And "1" saniye bekler.......................................................passed
+And Last name girer "kaya"..................................................passed
+And Position girer "manager"................................................passed
+And Office girer "ankara"...................................................passed
+And Extention girer "--"....................................................passed
+And Start date girer "2020-10-15"...........................................passed
+And Salary girer "10000"....................................................passed
+And Create tusuna basar.....................................................passed
+When kullanici "yasin" ile arama yapar......................................passed
+Then isim bolumunde "yasin" oldugunu dogrular...............................passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1007_kullanici_data_ekleyebilmeli" name="TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali 3" time="6.089">
+<system-out><![CDATA[When kullanici "datatable_url" anasayfaya gider.............................passed
+Then new butonuna basar.....................................................passed
+And first name girer "cevat"................................................passed
+And "1" saniye bekler.......................................................passed
+And Last name girer "fehmi".................................................passed
+And Position girer "tester".................................................passed
+And Office girer "istanbul".................................................passed
+And Extention girer "Dr"....................................................passed
+And Start date girer "2020-05-15"...........................................passed
+And Salary girer "12500000".................................................passed
+And Create tusuna basar.....................................................passed
+When kullanici "cevat" ile arama yapar......................................passed
+Then isim bolumunde "cevat" oldugunu dogrular...............................passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1007_kullanici_data_ekleyebilmeli" name="TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali 4" time="6.312">
+<system-out><![CDATA[When kullanici "datatable_url" anasayfaya gider.............................passed
+Then new butonuna basar.....................................................passed
+And first name girer "adnan"................................................passed
+And "1" saniye bekler.......................................................passed
+And Last name girer "calis".................................................passed
+And Position girer "QA lead"................................................passed
+And Office girer "berlin"...................................................passed
+And Extention girer "Master"................................................passed
+And Start date girer "2020-03-16"...........................................passed
+And Salary girer "-25000"...................................................passed
+And Create tusuna basar.....................................................passed
+When kullanici "adnan" ile arama yapar......................................passed
+Then isim bolumunde "adnan" oldugunu dogrular...............................passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1007_kullanici_data_ekleyebilmeli" name="TC09_5_farkli kisi_ile_farkli_kombinasyonlari_calismali 5" time="6.588">
+<system-out><![CDATA[When kullanici "datatable_url" anasayfaya gider.............................passed
+Then new butonuna basar.....................................................passed
+And first name girer "selin"................................................passed
+And "1" saniye bekler.......................................................passed
+And Last name girer "gul"...................................................passed
+And Position girer "Manuel tester"..........................................passed
+And Office girer "munih"....................................................passed
+And Extention girer "--"....................................................passed
+And Start date girer "2020-12-12"...........................................passed
+And Salary girer "1256125"..................................................passed
+And Create tusuna basar.....................................................passed
+When kullanici "selin" ile arama yapar......................................passed
+Then isim bolumunde "selin" oldugunu dogrular...............................passed
+And kullanici sayfayi kapatir...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

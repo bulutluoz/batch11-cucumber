@@ -1,5 +1,7 @@
 @db
 Feature: US1014_DbRead
+
+  @dbread2
   Scenario: TC_21 kullanici veri okur
 
     Given kullanici CK_Hotels veritabanina baglanir
