@@ -74,13 +74,13 @@ public class DbWithDBUtils {
         // SET EMail='batch11@theend.com'
         // WHERE IDHotel=8;
         // burada dinamik olan degerleri degistirelim
-        String updateQuery= "UPDATE dbo.tHOTEL SET EMail='"+yeniEmail+"' WHERE IDHotel="+satir+1;
+        String updateQuery= "UPDATE dbo.tHOTEL SET Email='"+yeniEmail+"' WHERE IDHotel="+satir;
         DBUtils.executeQuery(updateQuery);
     }
 
     @Then("IDHotel degeri 11 olan kaydin Email bilgisini buisbukadar@gmail.com yapar")
     public void idhotelDegeriOlanKaydinEmailBilgisiniBuisbukadarGmailComYapar() {
-        String sqlSorgu= "UPDATE dbo.tHOTEL SET Email='buisbukadar@gmail.com' WHERE IDHotel=11";
+        String sqlSorgu= "UPDATE dbo.tHOTEL SET Email='buisbitti@gmail.com' WHERE IDHotel=8";
         DBUtils.executeQuery(sqlSorgu);
     }
 
